@@ -1,0 +1,29 @@
+div.container {
+
+	padding-top: 50px;
+
+
+}
+
+.articleTitle:hover, .articleTitle:focus {
+
+    text-decoration: none;
+
+}
+
+article{
+
+	margin-top: 25px;
+}
+
+
+
+.footer {
+
+    border-top: 1px solid #ccc;
+
+    padding-top: 10px;
+
+    text-align: center;
+
+}
