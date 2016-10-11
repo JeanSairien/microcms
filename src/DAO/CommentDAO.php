@@ -6,7 +6,15 @@ use MicroCMS\Domain\Comment;
 
 class CommentDAO extends DAO 
 {
-
+    /**
+     * Removes all comments for a user
+     *
+     * @param integer $userId The id of the user
+     */
+    public function deleteAllByUser($userId) {
+        $this->getDb()->delete('t_comment', array('usr_id' => $userId));
+    }
+    
 
     /**
 
